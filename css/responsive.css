@@ -6,7 +6,6 @@
     .slider_section {
         padding: 50px 0;
     }
-
 }
 
 @media (max-width: 992px) {
@@ -26,10 +25,17 @@
     .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
         padding: 0 5px;
     }
+
+    .navbar-brand .logo-img {
+        height: 35px;
+    }
+
+    .navbar-brand span {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 768px) {
-
     .info_section .col-md-3 {
         text-align: center;
     }
@@ -67,6 +73,34 @@
     .footer_section p {
         padding: 20px 30px;
     }
+
+    .navbar-brand .logo-img {
+        height: 30px;
+    }
+
+    .navbar-brand span {
+        font-size: 18px;
+    }
+
+    .contact_section .contact-form {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .do_section .do_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .do_section .box {
+        margin: 15px 0;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .portfolio_container {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 576px) {
@@ -77,9 +111,50 @@
     .do_section .do_container .arrow_bg::before {
         display: none;
     }
+
+    .navbar-brand .logo-img {
+        height: 25px;
+    }
+
+    .navbar-brand span {
+        font-size: 16px;
+    }
+
+    .heading_container h2 {
+        font-size: 24px;
+    }
+
+    .contact_section .contact-form input {
+        font-size: 14px;
+    }
+
+    .btn_on-hover {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .navbar-brand .logo-img {
+        height: 20px;
+    }
+
+    .navbar-brand span {
+        font-size: 14px;
+    }
+
+    .slider_section .detail-box h1 {
+        font-size: 2.5rem;
+    }
+
+    .slider_section .detail-box p {
+        font-size: 14px;
+    }
+
+    .contact_section .contact-form input {
+        padding: 8px 15px;
+    }
+}
 
 @media (max-width: 420px) {
     .slider_section .detail-box h2 {
@@ -87,11 +162,35 @@
     }
 
     .slider_section .detail-box h1 {
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+
+    .navbar-brand .logo-img {
+        height: 18px;
+    }
+
+    .navbar-brand span {
+        font-size: 12px;
     }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+    .navbar-brand .logo-img {
+        height: 16px;
+    }
+
+    .navbar-brand span {
+        font-size: 11px;
+    }
+
+    .slider_section .detail-box h1 {
+        font-size: 1.8rem;
+    }
+
+    .slider_section .detail-box p {
+        font-size: 12px;
+    }
+}
 
 @media (min-width: 1200px) {
     .container {
